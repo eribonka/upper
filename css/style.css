@@ -29,7 +29,6 @@
         outline: none;
         background: #FFFFFF;
         color: #000000;
-        border: 1px solid #C4D1EB;
         transition: .3s ease;
     }
     
@@ -63,23 +62,43 @@
         color: #DDDDDD;
     }
 
-.start{
-background-color:#191970;
+    .buttonr {
+        color: #ffffff;
+        background-color: #54bbbe;
+        font-size: 13px;
+        padding: 15px 0px;
+        cursor: pointer
+    }
+    .buttonr:hover {
+        color: #54bbbe;
+        background-color: #000000;
+    }
 
+body{
+background-color:#2596be;
 }
-.container{
-    
+.container{  
   }
 
 .logo {
+}
+
+.text1 {
+  color: #FFFFFF;
+  font-size: small;
+  text-align: right;
+}
+
+h1 {
+    font-size: large;
+    text-align: right;
+}
+
+.main2 {
+    background-image:url(../clean-clean-background-blur-green.jpg) ;
 
 
 }
-
-
-
-
-
 
 
 
